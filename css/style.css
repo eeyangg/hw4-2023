@@ -140,7 +140,7 @@ nav a:hover, nav a:focus {
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-row-gap: 15px;
+  gap: 15px;
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
@@ -180,6 +180,7 @@ first div in the grid  and place it in the grid. */
   grid-row-start: 5;
 }
 
+
 .about-image, .method-image, .clients-image, .contact-image {
   grid-column: 1 / -1;
   max-height: 600px;
@@ -190,7 +191,7 @@ first div in the grid  and place it in the grid. */
 
  .text-block {
    text-align: center;
-   vertical-align: middle;
+   align-items: center;
    margin: auto;
  }
 
